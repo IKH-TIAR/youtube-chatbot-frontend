@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Video Chatbot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>🎥 YouTube Video Chatbot</h2>
+
+    <!-- Step 1: Input video link -->
+    <div class="video-section">
+      <input type="text" id="youtubeUrl" placeholder="Enter YouTube video URL">
+      <button id="loadBtn" type="button">Load Video</button>
+      <p id="loadStatus"></p>
+    </div>
+
+    <!-- Step 2: Show video -->
+    <div id="videoContainer"></div>
+
+    <!-- Step 3: Chat interface -->
+    <div class="chat-section" style="display:none;">
+      <div id="chatBox"></div>
+      <div class="input-group">
+        <input type="text" id="userInput" placeholder="Ask about this video...">
+        <button id="sendBtn" type="button">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
