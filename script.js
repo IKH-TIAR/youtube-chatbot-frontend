@@ -1,4 +1,4 @@
-const backendURL = "http://127.0.0.1:8000";
+const backendURL = "https://youtube-chatbot-backend-p9wd.onrender.com";
 
 let currentVideoId = localStorage.getItem("video_id") || null;
 const loadStatus = document.getElementById("loadStatus");
